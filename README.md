@@ -1,3 +1,5 @@
+<!-- Blog-1
+
 Interface হল TypeScript-এ object বা class-এর একটা নিয়ম/ছক, যেটা বলে দেয়,
 “এই object-এ কী কী property থাকবে এবং সেগুলোর টাইপ কী হবে।”
 ভুল data ঢোকার আগেই TypeScript error ধরিয়ে দেয় → কোড সেফ হয়।
@@ -44,4 +46,6 @@ type User = {
 
 ব্যাখা 
 এখানে User নামে একটি object type বানানো হয়েছে।
-Object-টি name (string) এবং age (number) property থাকতে হবে।
+Object-টি name (string) এবং age (number) property থাকতে হবে। -->
+
+<!-- Blog-2 -->
