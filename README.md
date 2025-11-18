@@ -48,4 +48,59 @@ type User = {
 এখানে User নামে একটি object type বানানো হয়েছে।
 Object-টি name (string) এবং age (number) property থাকতে হবে। -->
 
-<!-- Blog-2 -->
+<!-- Blog-3 -->
+
+<!-- any:
+যেকোন টাইপ চলবে 
+TypeScript কোনো error দেবে না।
+ঝুঁকিপূর্ণ কারণ টাইপ সেফটি থাকে না।
+
+let data: any = "Hello"; 
+data = 42;  
+data = true;  
+data.toUpperCase(); 
+
+unknown: 
+any এর মতো যেকোন মান দেয়া যায় বাট ব্যাবহারের আগে টাইপ চেক করতে হয় 
+let value: unknown = "Hi";
+if (typeof value === "string") {
+  console.log(value.toUpperCase());
+}
+
+never :
+এটা এমন ফাংশন যা কখনই রিটার্ন করেনা 
+যেমন error throw করা, infinite loop
+
+function throwError(): never {
+  throw new Error("Error");
+} -->
+
+
+<!-- Blog-5 -->
+
+<!-- Union Type (|)
+typescript a union type use করা হয়,যখন একটি  variable a একাধিক type এর মধ্যে যেকোন একটি  হতে পারে  
+যেমন: 
+type ID = string | number;
+
+let userId: ID;
+
+userId = "xyz123"; 
+userId = 101;      
+userId = true; এটি ভূল কারন এখানে string এবং  number চলবে 
+
+Intersection Type (&)
+
+Intersection Type ব্যবহার করা হয় দুই বা তার বেশি টাইপ একসাথে মেলে একটি নতুন টাইপ তৈরি করতে
+type Person = {
+  name: string;
+};
+type Employee = {
+  employeeId: number;
+};
+
+type Staff = Person & Employee;
+const staff: Staff = {
+  name: "Rahim",
+  employeeId: 123
+}; -->
