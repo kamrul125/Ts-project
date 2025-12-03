@@ -8,7 +8,7 @@ function formatValue(value: string | number | boolean) {
   } else if (typeof value === "boolean") {
     return !value;
   } else {
-    ("Invalid type");
+    return ("Invalid type");
   }
 }
 
@@ -24,7 +24,7 @@ function getLength(value: string | any[]) {
     } else if (Array.isArray(value)) {
         return value.length;
     }else {
-        ("Invalid type")
+       return  ("Invalid type")
     }
 }
 
