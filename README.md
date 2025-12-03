@@ -1,4 +1,4 @@
-<!-- Blog-1
+Blog-1
 
 Interface হল TypeScript-এ object বা class-এর একটা নিয়ম/ছক, যেটা বলে দেয়,
 “এই object-এ কী কী property থাকবে এবং সেগুলোর টাইপ কী হবে।”
@@ -48,9 +48,9 @@ type User = {
 এখানে User নামে একটি object type বানানো হয়েছে।
 Object-টি name (string) এবং age (number) property থাকতে হবে। -->
 
-<!-- Blog-3 -->
+Blog-3
 
-<!-- any:
+any:
 যেকোন টাইপ চলবে 
 TypeScript কোনো error দেবে না।
 ঝুঁকিপূর্ণ কারণ টাইপ সেফটি থাকে না।
@@ -73,12 +73,12 @@ never :
 
 function throwError(): never {
   throw new Error("Error");
-} -->
+}
 
 
-<!-- Blog-5 -->
+Blog-5
 
-<!-- Union Type (|)
+Union Type (|)
 typescript a union type use করা হয়,যখন একটি  variable a একাধিক type এর মধ্যে যেকোন একটি  হতে পারে  
 যেমন: 
 type ID = string | number;
@@ -103,4 +103,4 @@ type Staff = Person & Employee;
 const staff: Staff = {
   name: "Rahim",
   employeeId: 123
-}; -->
+};
