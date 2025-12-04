@@ -1,4 +1,4 @@
-Problem 1
+
 
 function formatValue(value: string | number | boolean) {
   if (typeof value === "string") {
@@ -16,7 +16,7 @@ console.log(formatValue("hello"));
 console.log(formatValue(5));       
 console.log(formatValue(true));    
 
-Problem 2
+
 
 function getLength(value: string | any[]) {
     if ( typeof value === "string") {
@@ -32,7 +32,7 @@ console.log(getLength("typescript"));
 console.log(getLength([10, 20, 30, 40]));
 
 
-Problem-3
+
 
 class Person {
     name: string;
@@ -57,7 +57,7 @@ console.log(person1.getDetails());
 const person2 = new Person('Alice', 25);
 console.log(person2.getDetails());
 
-Problem-4
+
 
 type item = {
    title: string;
@@ -77,7 +77,6 @@ const books = [
 
 console.log(filterByRating(books));
 
-Problem : 5
 
 type User = {
   id: number;
@@ -101,7 +100,7 @@ const users: User[] = [
 
 console.log(filterActiveUsers(users));
 
-Problem : 6
+
 
 interface Book {
   title: string;
